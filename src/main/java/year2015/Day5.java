@@ -3,22 +3,6 @@ package year2015;
 import java.io.IOException;
 
 public class Day5 {
-
-    public enum NAUGHTY{
-        ad("ab"), cd("cd"),pg("pq"),xy("xy") ;
-
-        private final String value;
-        NAUGHTY(String xy) {
-            this.value = xy;
-        }
-        public String getValue(){
-            return this.value;
-        }
-        @Override
-        public String toString() {
-            return String.valueOf(this.value);
-        }
-    }
     public static void run() throws IOException {
         String[] inputs = Utils.Utils.readFileAsSeparateLines("Day5input.txt");
 
@@ -73,6 +57,21 @@ public class Day5 {
             return this.value;
         }
 
+        @Override
+        public String toString() {
+            return String.valueOf(this.value);
+        }
+    }
+    public enum NAUGHTY{
+        ad("ab"), cd("cd"),pg("pq"),xy("xy") ;
+
+        private final String value;
+        NAUGHTY(String xy) {
+            this.value = xy;
+        }
+        public String getValue(){
+            return this.value;
+        }
         @Override
         public String toString() {
             return String.valueOf(this.value);
