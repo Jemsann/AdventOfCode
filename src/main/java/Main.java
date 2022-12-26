@@ -1,4 +1,5 @@
 import year2015.Day2;
+import year2015.Day3;
 
 import java.io.IOException;
 
@@ -7,6 +8,6 @@ public class Main {
 
         System.out.println("Main");
 
-        Day2.run();
+        Day3.run();
     }
 }
