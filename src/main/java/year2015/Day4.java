@@ -5,7 +5,7 @@ public class Day4 {
     public static void run()  {
         System.out.println("Day4: The Ideal Stocking Stuffer");
 
-        String input = "yzbqklnj";
+        String input = "";
         long index = 1;
         String output;
         do {
